@@ -1,31 +1,45 @@
 <template>
     <div class="bg-dark">
-     <div class="container py-5 px-5 my-5">
-     <div class="d-block">
-     <nav class="nav">
-      <a class="nav-link text-light" href="#">Home</a>
-      <a class="nav-link text-light" href="#">Terms and condition</a>
-      <a class="nav-link text-light" href="#">Privacy policy</a>
-      <a class="nav-link text-light" href="#">Collection statement</a>
-      <a class="nav-link text-light" href="#">Help</a>
-      <a class="nav-link text-light" href="#">Manage Account</a>
-      </nav>
-     </div>
-      <div class="d-block ml-3 text-light">
-       <p style="font-size:13px;">Copyright &copy; 2016 DEMO Streaming. All Rights Reserved</p>
-      </div>
-      <div class="ml-3 d-lg-flex">
-       <div class="mr-auto mb-3">
-       <img class="mr-3" src="../../public/img/social/facebook-white.svg" width="25" height="25" alt="facebook">
-       <img class="mr-3" src="../../public/img/social/twitter-white.svg" width="25" height="25" alt="twitter">
-       <img class="mr-3" src="../../public/img/social/instagram-white.svg" width="25" height="25" alt="instagram">
+           <!-- footer:s -->
+    <footer class="p-5">
+     
+      <ul class="list-inline ml-2">
+        <li class="list-inline-item">
+          <a href="" class="text-white">Home</a>
+        </li>
+        <li class="list-inline-item pl-2 border-left border-light">
+          <a href="" class="text-white">Terms and condition</a>
+        </li>
+        <li class="list-inline-item pl-2 border-left border-light">
+          <a href="" class="text-white">Privacy Policy</a>
+        </li>
+        <li class="list-inline-item pl-2 border-left border-light">
+          <a href="" class="text-white">Collection statement</a>
+        </li>
+        <li class="list-inline-item pl-2 border-left border-light">
+          <a href="" class="text-white">Help</a>
+        </li>
+        <li class="list-inline-item pl-2 border-left border-light">
+          <a href="" class="text-white">Manage Account</a>
+        </li>
+      </ul>
+       <p class="text-light ml-2">
+           Copyright &copy; 2016 DEMO Streaming. All rights reserved.
+       </p>
+      <div class="d-md-flex flex-row justify-content-md-between mt-5 text-light">
+       <div class="mb-2 ml-2">
+          <img class="mr-4" src="../../public/img/social/facebook-white.svg" width="15" alt="facebook">
+          <img class="mr-4" src="../../public/img/social/twitter-white.svg" width="25" alt="twitter">
+          <img src="../../public/img/social/instagram-white.svg" width="25" alt="instagram">
        </div>
-       <div class="px-5">
-       <img class="mr-3" src="../../public/img/store/app-store.svg" alt="twitter">
-       <img class="mr-5" src="../../public/img/store/play-store.svg" alt="twitter">
+       <div class="p-2">
+           <img class="mr-4" src="../../public/img/store/app-store.svg" width="120" alt="facebook">
+          <img class="mr-4" src="../../public/img/store/play-store.svg" width="120" alt="twitter">
+          <img src="../../public/img/store/windows-store.svg" width="100" alt="instagram">
        </div>
-      </div>
-     </div>
+        </div>
+     </footer>
+     <!-- footer:e -->
      </div>
 </template>
 <script>
