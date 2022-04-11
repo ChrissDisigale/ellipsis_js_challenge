@@ -50,5 +50,9 @@ export default {
 }
 </script>
 <style scoped>
-
+/*Font- LATO*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+footer{
+    font-family: Lato;
+}
 </style>
