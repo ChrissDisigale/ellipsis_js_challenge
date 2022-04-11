@@ -2,7 +2,7 @@
 <div>
     <SubHeader title="Movies"/>
     <!--Main section starts-->
-    <div class="d-md-flex container mx-lg-5">
+    <div class="d-md-flex container my-5 mx-lg-5">
         <div class="row mr-5">
            <template v-for="movie in movies" :key="movie.title">
               <div v-if="movie.programType==='movie'" class="card col-md-3 mb-3">
