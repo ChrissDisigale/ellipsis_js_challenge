@@ -4,6 +4,10 @@
 
 **vuejs**
 
+## css
+
+**bootstrap**
+
 ##  if i was allocated more time.
 
 - could connect vuejs with Lavael as my backend framework.
@@ -11,6 +15,8 @@
 - could add the admin panel, so as admin can create, edit and delete
 
 - group components more accurately.
+
+- add more features as vuejs as alot of capabilities.
 
 
 ## Project setup
