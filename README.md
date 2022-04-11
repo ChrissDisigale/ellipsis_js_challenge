@@ -1,16 +1,16 @@
 ##  Challenge
 
 ##  Framework used
---------
+-----
 vuejs
 
 ##  if i was allocated more time.
-----------
+-----
 - could connect vuejs with Lavael as my backend framework.
 
 - could add the admin panel, so as admin can create, edit and delete
 
--group components more accurately.
+- group components more accurately.
 
 
 ## Project setup
